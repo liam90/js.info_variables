@@ -1,0 +1,20 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    font-size: 16px;
+    margin: 0;
+    padding: 1em;
+    color: hsl(0, 55%, 29%);
+    background-color: hsl(0, 0%, 45%);
+}
+
+h1 {
+    text-align: center;
+    border-bottom: solid thin hsl(0, 55%, 29%);
+    padding-bottom: 1em;
+}
